@@ -1,0 +1,22 @@
+{
+  "name": "parcel-typescript-template",
+  "version": "0.0.0",
+  "private": true,
+  "description": "This is a bare-bones starter template for a parcel packaged typescript webapp.",
+  "workspaces": [
+    "apps/**"
+  ],
+  "scripts": {
+    "postinstall": "update-ts-references",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Felix Dürrwald <mplabs@mplabs.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "jest": "^27.4.5",
+    "typescript": "^4.5.4",
+    "update-ts-references": "^2.4.1"
+  }
+}

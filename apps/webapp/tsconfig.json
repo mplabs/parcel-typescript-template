@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "jsx": "react",
+    "lib": ["dom"],
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "baseUrl": "src"
+  }
+}
